@@ -32,11 +32,13 @@ public class PasswordGenerator {
         dataGiorno = input.nextInt();
         dataMese = input.nextInt();
         dataAnno = input.nextInt();
-        
+
         int dataSomma = dataGiorno + dataMese + dataAnno;
 
         System.out.println("Il mio utente si chiama " + nome + " " + cognome + ", " + "nato il " + dataGiorno + "/"
                 + dataMese + "/" + dataAnno + " il cui colore preferito è il " + colorePreferito + ".");
         System.out.println("La sua password sarà " + nome + "-" + cognome + "-" + colorePreferito + "-" + dataSomma);
+
+        input.close();
     }
 }
