@@ -1,3 +1,5 @@
+package src.org.lessons.java;
+
 public class PasswordGenerator {
 
     public static void main(String[] args) {
@@ -19,3 +21,4 @@ public class PasswordGenerator {
         System.out.println("La sua password sarà " + nome + "-" + cognome + "-" + colorePreferito + "-" + dataSomma);
     }
 }
+
